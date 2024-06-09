@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: black;
+  color: rgb(234, 234, 234)
+}
+
+li, a { 
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar_list{
+  display: flex;
+  flex-direction: row;
+}
+.img-list{
+  align-content: center;
+}
+
+.swiper{
+  display: block;
+  position: relative;
+  
+}
+.carousel-card{
+  display: block;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-color: 
+}
+
+.input-search{
+  border-radius: 5px;
+  background-color: rgba(58, 58, 58, 0.481);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+input, button{
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-size: 100%;
+  font-variation-settings: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.button-carousel{
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 20px 0px;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.slider-nav{
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 250px;
+  z-index: 50;
+  overflow: hidden;
+  background-color: rgb(28, 28, 28);
+
+}
+
+.slider-nav.active{
+  width: 0;
+
+}
